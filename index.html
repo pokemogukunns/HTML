@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML取得サイト</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>HTML取得サイト</h1>
+    </header>
+    <main>
+        <form id="url-form">
+            <label for="url">URLを入力してください:</label>
+            <input type="text" id="url" placeholder="例: https://example.com" required>
+            <button type="submit">取得</button>
+        </form>
+        <div id="result">
+            <h2>取得したHTML:</h2>
+            <pre id="html-output"></pre>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 あなたの会社名</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
